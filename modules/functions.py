@@ -2,7 +2,7 @@ FILE_PATH = 'todos.txt'
 
 def get_todos(filepath = FILE_PATH):
     with open(filepath, 'r') as file_local:
-        todos_local = file_local.readlinees()
+        todos_local = file_local.readlines()
     return todos_local
 """ This Function is to Read a text file and 
 return the list of To-Do Items"""
