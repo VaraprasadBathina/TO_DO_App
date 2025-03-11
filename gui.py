@@ -19,7 +19,7 @@ while(True):
             new_todo = values['todo']+"\n"
             todos.append(new_todo)
             functions.write_todos(todos_args=todos)
-
+            """ Added ADD feature calling functions from module"""
         case sg.WIN_CLOSED:
             break
 
