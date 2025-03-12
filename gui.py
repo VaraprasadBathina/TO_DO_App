@@ -12,9 +12,10 @@ exit_button = sg.Button("EXIT")
 window = sg.Window('To-Do APP', 
                    layout=[[label],
                            [input_box, add_button],
-                           [list_box, edit_button, complete_button]
-                           [exit_button]],
-                   font=('Helvetica', 20))
+                           [list_box, edit_button, complete_button],
+                           [exit_button]
+                           ],  
+                           font=('Helvetica', 20))
 
 while(True):
     event, values  = window.read()
