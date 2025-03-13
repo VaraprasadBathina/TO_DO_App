@@ -1,7 +1,4 @@
 Code
 Master Python
-Play VolleyballEat Healthy
 Learn DSA
-new_todo
-Learn DE
 
