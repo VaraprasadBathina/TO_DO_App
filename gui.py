@@ -9,6 +9,9 @@ list_box = sg.Listbox(values = functions.get_todos(), key='todos',
 edit_button = sg.Button("EDIT")
 complete_button = sg.Button("COMPLETE")
 exit_button = sg.Button("EXIT")
+
+
+
 window = sg.Window('To-Do APP', 
                    layout=[[label],
                            [input_box, add_button],

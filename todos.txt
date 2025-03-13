@@ -1,6 +1,7 @@
-Play
 Code
 Master Python
-Make vishnu volleyball captain
-Eat Healthy
+Play VolleyballEat Healthy
 Learn DSA
+new_todo
+Learn DE
+
